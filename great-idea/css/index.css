@@ -228,10 +228,40 @@ p {
 .servicesSection2 {
 	display: flex;
 	flex-flow: row wrap;
-	width: 84%;
+	justify-content: center;
+	width: 100%;
+	margin-top: 2%;
+
 }
 
 .servicesSection2 div {
 	width: 41%;
 	border: 1px solid;
+	margin: 1.5%;
+	padding: 1.5%;
+	background: #f4f3f4;
+}
+
+.servicesSection2 div h2 {
+	font-size: 1.4vw;
+}
+
+.servicesSection2 div p {
+	font-size: 1.3vw;
+	line-height: 1.2;
+	font-weight: 900;
+}
+
+.servicesSection2 div div {
+	font-size: 0.95vw;
+	font-weight: 900;
+	margin-left: 0px;
+	margin-top: 5%;
+	width: 30%;
+	height: 20%;
+	line-height: 1.8;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	background: white;
 }
