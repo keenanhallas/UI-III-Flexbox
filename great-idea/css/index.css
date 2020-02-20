@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Index Page */
 header {
 	display: flex;
 	justify-content: space-evenly;
@@ -190,4 +191,47 @@ footer div {
 
 p {
 	font-weight: 100;
+}
+
+/* Services Page */
+.servicesSection1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;	
+}
+
+.services-header-img {
+	width: 84%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.servicesSection1 div {
+	width: 84%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 3%;
+	border-bottom: 1px solid;
+}
+
+.servicesSection1 div h1 {
+	font-size: 2vw;
+}
+
+.servicesSection1 div p {
+	line-height: 1.4;
+	width: 150%;
+	text-align: justify;
+	font-size: 1.5vw;
+}
+
+.servicesSection2 {
+	width: 84%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.servicesSection2 div {
+	width: 41%%;
+	border: 1px solid;
 }
