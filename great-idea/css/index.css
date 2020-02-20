@@ -84,10 +84,11 @@ nav a {
 	color: #c3c3c3;
 }
 
-header img {
-	width: 15%;
-	margin-top: 3.5%;
-	margin-right: 4%;
+header a img {
+	margin-top: 3.5vw;
+	padding-right: 4vw;
+	width: 18vw;
+	height: 3vw;
 }
 
 .section1 {
