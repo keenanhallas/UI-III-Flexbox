@@ -226,12 +226,12 @@ p {
 }
 
 .servicesSection2 {
-	width: 84%;
 	display: flex;
 	flex-flow: row wrap;
+	width: 84%;
 }
 
 .servicesSection2 div {
-	width: 41%%;
+	width: 41%;
 	border: 1px solid;
 }
