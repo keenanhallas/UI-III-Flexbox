@@ -316,6 +316,7 @@ p {
 	font-weight: 900;
 }
 
+/* Contact page */
 .adminList {
 	display: flex;
 	flex-flow: row wrap;
